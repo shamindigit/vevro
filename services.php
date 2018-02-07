@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="whatwedo--intro">
 					<!-- <div class="whatwedo--blob"></div> -->
-					<p>Advanced in a vision delivered through simplicity.</p>
+					<p>Advanced innovation delivered through simplicity.</p>
 				</div>
 			</div>
 			<div class="row">
