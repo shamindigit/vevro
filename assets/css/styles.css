@@ -1,19 +1,8 @@
 
-#preloader { 
-  position: fixed; 
-  left: 0; 
-  top: 0; 
-  display: none;
-  opacity: 0.7;
-  z-index: 999999; 
-  width: 100%; 
-  height: 100%; 
-  overflow: visible; 
-  background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center; 
-}
+
 @font-face {
     font-family: 'OpenSans-ExtraBold';
-    src: url(../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
     src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/OpenSans-ExtraBold-webfont.woff2') format('woff2'),
          url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
@@ -62,12 +51,11 @@
 html,body{
 	margin:0px;
 	padding:0px;
-	overflow-x: hidden !important;
 	font-family: 'open_sansregular';
 	color:#141414;
 }
 body{
-  overflow: hidden;
+  overflow-x: hidden !important;
 }
 ::-webkit-scrollbar-track
 {
@@ -167,6 +155,17 @@ section{
 .logo{
     max-width: 40px;
     margin: 10px 0px;
+}
+#preloader { 
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  opacity: 0.7;
+  z-index: 999999; 
+  width: 100%; 
+  height: 100%; 
+  overflow: visible; 
+  background: #fff url('../images/loading.gif') no-repeat center center; 
 }
 /*index*/
 .section-aboutus{
@@ -808,7 +807,7 @@ background: linear-gradient(to right, rgba(0,0,0,0.6) -1%,rgba(0,0,0,0) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=1 ); width:100%;
   top:0;
   position: absolute;
-  padding: 20%;
+  padding: 14%;
   height: 100%;
   left: 0;
 }
@@ -904,6 +903,9 @@ footer{
 .animated.fadeOut{
     animation-duration: .5s;
     animation-delay: 3.2s;
+}
+.slideshow .animated{
+    animation-delay: 3s;
 }
 .section--headings{
   width: 100%;

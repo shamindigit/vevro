@@ -48,6 +48,9 @@
 	.heading-clients {
 	    font-size: 8rem;
 	}
+	.logo--address{
+		padding: 20%;
+	}
 }
 @media (min-width:991px) and (max-width: 1024px) {  
 	h1.hed-sub {

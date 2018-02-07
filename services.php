@@ -48,7 +48,7 @@
 						<div class="col-12 col-lg-6 col-md-6 col-sm-12">
 							<div class="di--ve--para  whatwedo--main--events">
 								<div class="di--ve--imgs">
-									<img src="assets/images/AR-vevro.png" alt="">
+									<img src="assets/images/augmented--reality.gif" alt="">
 								</div>
 							</div>
 						</div>

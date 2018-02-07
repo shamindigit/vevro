@@ -52,7 +52,23 @@
 			}
 		});
 	</script>
+	<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/b7ef205d/cloudflare-static/rocket.min.js"></script>
+	<script type="text/rocketscript">
+	        window.onload = function(){
 
+	            var el = document.getElementById('preloader');
+	            setTimeout(function () {
+	                el.style.opacity = '0';
+	                dis_none(el);
+	            },10);
+	            function dis_none(element) {
+	                setTimeout(function () {
+	                    element.style.display = 'none';
+
+	                },500);
+	            }
+	        };
+	    </script>
 </head>
 <body>
 <div id="preloader"></div>
