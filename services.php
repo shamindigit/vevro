@@ -152,7 +152,7 @@
 							<div class="col-12 col-lg-6 col-md-6 col-sm-12">
 								<div class="mw--sketch">
 									<div class="di--ve--imgs">
-										<img src="assets/images/ux.png" alt="">
+										<img src="assets/images/mobile--web.png" alt="">
 									</div>
 								</div>
 							</div>

@@ -20,11 +20,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css"> 
 	<link rel="shortcut icon" href="assets/images/favicon.ico" />
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="assets/js/snap.svg-min.js"></script> 
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkzWmAFBgemtlkvk6z8aIf_yN8ebGq83w&callback=initMap"
-  type="text/javascript"></script>
-
-	
+	<script src="assets/js/snap.svg-min.js"></script>
 	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	<script>
 	var vid = document.getElementById("bgvid");
@@ -68,7 +64,7 @@
 	                },500);
 	            }
 	        };
-	    </script>
+	</script>
 </head>
 <body>
 <div id="preloader"></div>

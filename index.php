@@ -78,7 +78,7 @@
 							<div class="col-12 col-lg-6 col-md-12 col-sm-12 text-left text-white z">
 								<div class="fourSections justify-content-center align-items-center" style="position: relative; z-index: 9" data-aos="fade-down">	
 									<div class="cat-text-wrap ai-txt" data-aos="zoom-in-up" data-aos-duration="8000">
-										<h2>Artificial</h2><h4>Inteligance</h4>
+										<h2>Artificial</h2><h4>Intelligence</h4>
 									</div>
 								</div>				
 								<div class="ai_imgs hidden-lg-up">
@@ -252,13 +252,296 @@
 				</div>
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="mapandweather">
-						<div class="location">
-							<iframe class=" hidden-sm-down" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15842.585534894015!2d79.8436609!3d6.9328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb35822a3ace0857!2sWorld+Trade+Center!5e0!3m2!1sen!2slk!4v1517570089827" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-							<a href="https://www.google.com/maps?ll=6.9328,79.843661&z=15&t=m&hl=en-US&gl=LK&mapclient=embed&cid=16948595890565548119"">
+						<div class="location" id="map">
 								<img class="hidden-md-up" src="assets/images/map.png" alt="Map">
 							</a>
 						</div>
 					</div>
+					    <script>				    	
+					      function initMap() {
+
+					        // Create a new StyledMapType object, passing it an array of styles,
+					        // and the name to be displayed on the map type control.
+					        var styledMapType = new google.maps.StyledMapType(
+					            [
+								  {
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#1d2c4d"
+								      }
+								    ]
+								  },
+								  {
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#8ec3b9"
+								      }
+								    ]
+								  },
+								  {
+								    "elementType": "labels.text.stroke",
+								    "stylers": [
+								      {
+								        "color": "#1a3646"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "administrative.country",
+								    "elementType": "geometry.stroke",
+								    "stylers": [
+								      {
+								        "color": "#4b6878"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "administrative.land_parcel",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#64779e"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "administrative.province",
+								    "elementType": "geometry.stroke",
+								    "stylers": [
+								      {
+								        "color": "#4b6878"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "landscape.man_made",
+								    "elementType": "geometry.stroke",
+								    "stylers": [
+								      {
+								        "color": "#334e87"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "landscape.natural",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#023e58"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "poi",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#283d6a"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "poi",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#6f9ba5"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "poi",
+								    "elementType": "labels.text.stroke",
+								    "stylers": [
+								      {
+								        "color": "#1d2c4d"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "poi.park",
+								    "elementType": "geometry.fill",
+								    "stylers": [
+								      {
+								        "color": "#023e58"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "poi.park",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#3C7680"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#304a7d"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#98a5be"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road",
+								    "elementType": "labels.text.stroke",
+								    "stylers": [
+								      {
+								        "color": "#1d2c4d"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road.highway",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#2c6675"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road.highway",
+								    "elementType": "geometry.stroke",
+								    "stylers": [
+								      {
+								        "color": "#255763"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road.highway",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#b0d5ce"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "road.highway",
+								    "elementType": "labels.text.stroke",
+								    "stylers": [
+								      {
+								        "color": "#023e58"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "transit",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#98a5be"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "transit",
+								    "elementType": "labels.text.stroke",
+								    "stylers": [
+								      {
+								        "color": "#1d2c4d"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "transit.line",
+								    "elementType": "geometry.fill",
+								    "stylers": [
+								      {
+								        "color": "#283d6a"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "transit.station",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#3a4762"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "water",
+								    "elementType": "geometry",
+								    "stylers": [
+								      {
+								        "color": "#0e1626"
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "water",
+								    "elementType": "geometry.fill",
+								    "stylers": [
+								      {
+								        "color": "#007b89"
+								      },
+								      {
+								        "visibility": "off"
+								      },
+								      {
+								        "weight": 1.5
+								      }
+								    ]
+								  },
+								  {
+								    "featureType": "water",
+								    "elementType": "labels.text.fill",
+								    "stylers": [
+								      {
+								        "color": "#4e6d70"
+								      }
+								    ]
+								  }
+								],
+					            {name: 'Styled Map'});
+
+					        // Create a map object, and include the MapTypeId to add
+					        // to the map type control.
+					        var map = new google.maps.Map(document.getElementById('map'), {
+					          center: {lat: 6.932891, lng: 79.843664,},
+					          zoom: 18,
+					          mapTypeControlOptions: {
+					            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+					                    'styled_map']
+					          }
+					        });
+
+					        //Associate the styled map with the MapTypeId and set it to display.
+					        map.mapTypes.set('styled_map', styledMapType);
+					        map.setMapTypeId('styled_map');
+
+							  var myLatLng = {lat: 6.932891, lng: 79.843664};
+
+
+							  var marker = new google.maps.Marker({
+							    position: myLatLng,
+							    map: map,
+							    title: 'Vevro'
+							  });
+					      }
+
+					    </script>
+					    <script async defer
+					    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApndjD-ikp6kwvIcOulG06SI4uKTCI6nc&callback=initMap">
+					    </script>
 				</div>
 			</div>
 

@@ -793,6 +793,7 @@ a.readmorebtn h3 {
     width:100%;
     float: right;
     position: relative;
+    min-height: 600px;
 }
 .location iframe{
     border: 0;
