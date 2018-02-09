@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-	<section class="main-banner-outer">
+	<section class="index--sec main-banner-outer">
 		<div class="main-banner" id="main-banner" >
 			<div class="content">
 				<div class="slideshow">
@@ -14,27 +14,49 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-aboutus" data-aos="fade-up" id="section-aboutus">
-		<div class="aboutus-con">
-				<div class="blobs">  
-					<div class="blob"></div>
-					<div class="blob"></div>
-					<div class="blob"></div>
-					<div class="blob"></div>
-					<div class="blob"></div>
-					<div class="blob"></div>
-				</div>
-			<div class="container">
-				<div class="aboutus text-white">
-					<h2>Who we are</h2>
-					<p>We are Vevro, a Digital Innovations &amp; Advisory firm that loves to learn, collaborate and create in order to make digital simple. Innovative, passionate and boutique, we weave ...</p>
-					<a href="about.php" class="readmore hvr-bounce-to-top justify-content-center align-items-center">Read more</a>
+	<section class="index--sec aboutus-content" id="whoweare">
+		<div class="container">
+			<div class="row">
+				<div class="section--headings">
+					<h1 class="text-red" data-aos="flip-left"  data-aos-once="true" >Who we are</h1>
+					<div class="hed-prim"><h3>We believe in</h3>
+					<hr class="hed-prim--hr">
+					<h3 class="text-blue" data-aos="flip-left"  data-aos-once="true" >Making Digital Simple</h3>
 				</div>
 			</div>
+			<div class="writeup">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+						<!-- <div class="writeup-para-1--blob"></div> -->
+						<div class="writeup-para-1">
+							<p>We are Vevro, a Digital Innovations &amp; Advisory firm that loves to learn, collaborate and create in order to make digital simple. Innovative, passionate and boutique, we weave our magic from our 25<sup>th</sup> Floor ocean view studio in the heart of Colombo.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="writeup-para-3">
+							<!-- <div class="writeup-para-3--blob animated infinite tada"></div> -->
+							<p>"Making Digital Simple" is what we believe in and the reason we all come to work every day. We therefore, employ talented, enthusiastic, and vibrant people – skilled and specialised in either strategy, creative or code – to make your digital dreams a reality.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+<!-- 			<div class="whatwedo-small">
+				<div class="row">
+					<a href="services.php">
+						<div class="whatwedo--intro">
+							<div class="go--arrow animated infinite slideInLeft"></div>
+							<h3 data-aos="flip-up">Learn what we do</h3>
+						</div>
+					</a>
+				</div>
+			</div> -->
 		</div>
 	</section>
-	<section class="section-services">
+	<section class="index--sec section-services">
 		<div class="container">
+			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="flip-left">What we do</h1></div></div>
 			<div class="main-cat">
 				<div class="row">
 					<div class="col-lg-6 col-md-12 col-12">
@@ -144,13 +166,13 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-video">
+<!-- 	<section class="index--sec section-video">
 		<div class="row">
 			<video id="bgvid" autoplay muted loop>
 			<source src="assets/videos/ar.mp4" type="video/mp4">
 			</video>
 		</div>
-	</section>
+	</section> -->
 <!-- 	<section>
 		<div class="blog">
 			<div class="container-fluid">
@@ -214,7 +236,7 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="sec-clients">
+	<section class="index--sec sec-clients">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6 col-md-5 col-sm-12">
@@ -234,8 +256,8 @@
 			</div>			
 		</div>
 	</section>
-	<section class="sec--map" id="sec--map">
-			<div class="row">
+	<section class="index--sec sec--map" id="sec--map">
+			<div class="row map--div">
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 					<canvas  id="nokey"></canvas>
 					<div class="logo--address">
@@ -544,7 +566,5 @@
 					    </script>
 				</div>
 			</div>
-
-		
+			<?php include ("footer.php")?>
 	</section>
-<?php include ("footer.php")?>

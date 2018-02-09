@@ -65,6 +65,8 @@
 	            }
 	        };
 	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 </head>
 <body>
 <div id="preloader"></div>
@@ -74,7 +76,7 @@
 				<nav class="menu hvr-shutter-out-horizontal">
 					<div class="icon-list">
 						<a href="index.php"><i class="fa fa-fw fa-star-o"></i><span>Home</span></a>
-						<a href="about.php"><i class="fa fa-fw fa-bell-o"></i><span>Who we are</span></a>
+						<a href="index.php#whoweare"><i class="fa fa-fw fa-bell-o"></i><span>Who we are</span></a>
 						<a href="services.php"><i class="fa fa-fw fa-envelope-o"></i><span>What we do</span></a>
 						<a href="careers.php"><i class="fa fa-fw fa-comment-o"></i><span>Join us</span></a>
 						<a href="contact.php"><i class="fa fa-fw fa-bar-chart-o"></i><span>Get in touch</span></a>

@@ -59,19 +59,21 @@ body{
 }
 ::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+/*	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;*/
+  background: transparent;
 }
 
 ::-webkit-scrollbar
 {
-	width: 10px;
-	background-color: #F5F5F5;
+	width: 0px;
+	/*background-color: #F5F5F5;*/
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb
 {
-	background-color: #ec292e;	
+/*	background-color: #ec292e;	
 	background-image: -webkit-linear-gradient(45deg,
 	                                          rgba(255, 255, 255, .2) 25%,
 											  transparent 25%,
@@ -79,7 +81,8 @@ body{
 											  rgba(255, 255, 255, .2) 50%,
 											  rgba(255, 255, 255, .2) 75%,
 											  transparent 75%,
-											  transparent)
+											  transparent)*/
+                        background: transparent;
 }
 p{
   font-size: 23px;
@@ -116,16 +119,16 @@ section{
 	color: #ffffff;
 }
 .text-blue{
-	color:#3773b2 ;
+	color:#3773b2 !important ;
 }
 .text-red{
-	color:#ea3e33 ;
+	color:#ea3e33 !important ;
 }
 .text-green{
-	color:#64bb50;
+	color:#64bb50 !important;
 }
 .text-orange{
-	color:#f18b39; ;
+	color:#f18b39 !important;
 }
 .lg-txt{
 	font-size: 50px;
@@ -168,6 +171,9 @@ section{
   background: #fff url('../images/loading.gif') no-repeat center center; 
 }
 /*index*/
+.index--sec{
+  height: 100vh;
+}
 .section-aboutus{
 	position: relative;
   overflow: hidden;
@@ -324,7 +330,8 @@ section{
     border-radius:100% 40% ;
 }
 .section-services{
-	padding: 5% 0;
+	padding:4% 0;
+  height: 120vh;
 }
 .di_imgs{
     width: 100%;
@@ -639,6 +646,9 @@ a .card-block{
   width: 100%;
   height: 600px;
 }
+.map--div{
+  height: 70vh;
+}
 a.readmorebtn {
     width: 100px;
     height:70px;
@@ -664,7 +674,7 @@ a.readmorebtn h3 {
     text-transform: uppercase;
 }
 .clients{
-  padding:10% 0px;
+  padding:35% 0px;
   position: relative;
   width: 100%;
   text-align: center;
@@ -685,7 +695,7 @@ a.readmorebtn h3 {
 .clent--bg--blob img {
     position: absolute;
     right: -10%;
-    top: -7%;
+    top: 5%;
     width: 100%;
     z-index: 0;
 }
@@ -695,7 +705,7 @@ a.readmorebtn h3 {
     position: relative;
     color: #ffffff;
     text-align: right;
-    padding: 30% 0 0;
+    padding: 50% 0 0;
     margin: 0px;
 }
 
@@ -793,7 +803,7 @@ a.readmorebtn h3 {
     width:100%;
     float: right;
     position: relative;
-    min-height: 600px;
+    height: 70vh;
 }
 .location iframe{
     border: 0;
@@ -834,7 +844,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
     font-size: 20px;
 }
 footer{
-	padding:2% 0px;
+	padding:1% 0px;
 	overflow: hidden;
 	text-align: center;
     -webkit-animation: color-change 10s infinite;
@@ -921,7 +931,8 @@ footer{
 }
 /* about us*/
 .aboutus-content {
-    padding: 5% 0;
+    padding: 10% 0;
+    background: #f9f9f9;
 }
 .aboutus-banner{
 	width: 100%;;
@@ -933,8 +944,9 @@ footer{
     height: 70vh;
     overflow: visible;
     position: relative;
-    box-shadow: 1px 20px 20px 8px #0000000d;
     background-color: #0b041d;
+    background-image: url(../images/team.png);
+    background-size: 100%;
 }
 .aboutus-wrapper{
 	overflow: hidden;
@@ -959,27 +971,24 @@ h1.hed-sub{
     color: #fff;
 }
 .hed-prim{
-	position: absolute;
-	bottom: 10%;
-    left: 5%;
+	position: relative;
     font-size: 2rem;
-    width: 30%;
     display: block;
-    text-align: left;
+    padding: 5% 0 0;
+    text-align: center;
 }
 .hed-prim h3{
-    font-size: 2rem;
-    line-height: 1;	
-    color: #fff;
+    font-size: 20px;
+    color: #928b8b;
 }
 .hed-prim--hr{
-	width: 100%;
-	border-top: thin solid #fff;
+  width: 100%;
+    border-top: thin solid #3773b2;
     animation: hrScale 3s;
     transform-origin: 100% 50%;
     float: left;
 }
-.writeup::before {
+/*.writeup::before {
     background: url(../images/abtus--bg.svg) center top/cover no-repeat;
     content: '';
     display: block;
@@ -990,7 +999,7 @@ h1.hed-sub{
     width: 50%;
     z-index: -1;
     opacity: .4;
-}
+}*/
 @-webkit-keyframes hrScale {
   0% {
     -webkit-transform: scale(0);
@@ -1019,7 +1028,8 @@ h1.hed-sub{
     text-align: center;
     display: block;
     font-family: 'open_sansregular';
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     position: relative;
     z-index: 2;
 }
@@ -1043,6 +1053,7 @@ h1.hed-sub{
     display: block;
     font-family: 'open_sansregular';
     width: 100%;
+    margin: 0 auto;
     max-width: 400px;
     float: right;
     padding:5%;
@@ -1068,7 +1079,8 @@ h1.hed-sub{
     text-align: center;
     display: block;
     font-family: 'open_sansregular';
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding: 0%;
     position: relative;
 }
@@ -1085,6 +1097,9 @@ h1.hed-sub{
 }
 .writeup-para-3--blob.animated{
 	animation-duration: 20s;
+}
+.whatwedo-small{
+  margin: 0 auto;
 }
 .whatwedo-small a{
 	display: block;
@@ -1324,7 +1339,8 @@ position: absolute;
 	width: 100%;;
 	overflow: hidden;
 	text-align: center;
-	padding: 0px 0 5%;
+  padding: 0;
+  background: #0c031e;
 }
 .contact-opening-div {
     height: auto;
@@ -1338,6 +1354,11 @@ position: absolute;
 }
 .contact-opening-div-banner{
   width: 100%;
+}
+.contactus--content{
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 @keyframes grow
 {
@@ -1369,7 +1390,7 @@ position: absolute;
 .conLogo {
     max-width: 200px;
     width: 100%;
-    margin: 0 auto 5%;
+    margin: 0 auto;
 }
 .conLogo img{
 	width: 100%;
@@ -1383,12 +1404,12 @@ position: absolute;
 }
 .con--adrs h5{
     font-family: 'open_sansbold';
-    color: #000000;
+    color: #fff;
     text-transform: uppercase;
     line-height: 2;
 }
 .con--adrs h6{
-    color: #000000;
+    color: #fff;
     text-transform: uppercase;
     line-height: 2;
 }
@@ -1429,6 +1450,7 @@ position: absolute;
     display: inline-block;
     width: 50px;
     height: 50px;
+    border-radius: 100%;
     float: left;
     margin-right: 5%;
   -webkit-transition: .5s; /* Safari */
@@ -1447,7 +1469,7 @@ position: absolute;
     position: relative;
 }
 .soc--icons i{
-	margin:35%;
+	margin:35% 30%;
 }
 /*.icon--fb{
 	background: #4267b2;
@@ -1488,6 +1510,7 @@ position: absolute;
 .con--tpno h2{
     font-size: 20px;
     line-height: 2;
+    color: #fff;
 }
 .con--tpno i{
   margin-right: 10px;

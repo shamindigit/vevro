@@ -5,7 +5,7 @@
 					<div class="col-12 col-sm-12 col-md-2 col-lg-2"  data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear" data-aos-once="true" >
 						<div class="sitemap">
 							<h6><a href="index.php">Vevro</a></h6>
-							<h6><a href="about.php">Who we are</a></h6>
+							<h6><a href="index.php#whoweare">Who we are</a></h6>
 							<h6><a href="services.php">What we do</a></h6>
 						</div>
 						<!--div class="address-footer">
