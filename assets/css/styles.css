@@ -649,6 +649,11 @@ a .card-block{
 .map--div{
   height: 70vh;
 }
+.mobile--map{
+  display: none;
+  width: 100%;
+  position: relative;
+}
 a.readmorebtn {
     width: 100px;
     height:70px;

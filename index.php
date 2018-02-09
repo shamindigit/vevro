@@ -274,10 +274,11 @@
 				</div>
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="mapandweather">
-						<div class="location" id="map">
+						<div class="location" id="map" >
 								<img class="hidden-md-up" src="assets/images/map.png" alt="Map">
 							</a>
 						</div>
+						<img class="mobile--map" src="assets/images/map.png" alt="mobile--map">
 					</div>
 					    <script>				    	
 					      function initMap() {

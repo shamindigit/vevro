@@ -320,6 +320,15 @@
 	.blob {
 	    background: #c0332a;
 	}
+	.section-services, .index--sec{
+		height: auto;
+	}
+	.mobile--map{
+		display: block;
+	}
+	.location{
+		display: none;
+	}
 }
 
 @media (max-width: 768px) {  
