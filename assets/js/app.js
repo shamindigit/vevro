@@ -3,6 +3,7 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 	});
 });
+//smooth scroll
 $(function(){
   
   var $window = $(window);    //Window object

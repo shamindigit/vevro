@@ -5,10 +5,7 @@
 		<div>
 			<div class="row">
 				<div class="serv-opening-div">
-					<img class="serv-opening-div-banner" src="assets/images/sketch.jpg" alt="services">
-					<div class="row">
-						<!-- <div class="line--vertical-custom"></div> -->
-					</div>
+					<canvas id="world"></canvas>
 				</div>
 			</div>
 		</div>

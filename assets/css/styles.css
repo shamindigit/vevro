@@ -1546,6 +1546,7 @@ position: absolute;
     overflow: hidden;
     position: relative;
     width:100%;
+    background-color: #000;
 }
 .serv-opening-div-banner{
   width: 100%;

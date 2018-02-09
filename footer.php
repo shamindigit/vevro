@@ -52,7 +52,6 @@
 	<footer>
 		<small><a href="#">Copyright &copy; 2017 Vevro. All rights reserved.</a></small>
 	</footer>
-	
 	<script src="assets/js/classie.js"></script>
 	<script src="assets/js/main3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
