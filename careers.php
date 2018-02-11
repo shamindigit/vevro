@@ -31,7 +31,7 @@
 							<a class="team-circles tooltip  team--members founder">
 								<img src="assets/images/team/ashi.png" alt="founder">
 								<span class="tooltip-content">
-									<h5>Ashi Dhanathunga</h5>
+									<h5>Vidushitha Ashi Dhanatunge</h5>
 									<p>Founder &amp; CEO</p>
 								</span>
 							</a>

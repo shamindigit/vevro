@@ -87,6 +87,11 @@ function moveBackground() {
     '-moz-transform': translate,
     'transform': translate
   });
+    $('.our--team').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
 
   window.requestAnimationFrame(moveBackground);
 }
