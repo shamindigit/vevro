@@ -1,4 +1,9 @@
 
+@media (max-width: 1600px) { 
+	.section-services{
+		height: 150vh;
+	}
+} 
 @media (min-width:1025px) and (max-width: 1300px) {  
   .blog h2{
   	font-size: 6rem;
@@ -238,6 +243,9 @@
 	}
 	.careers-opening-div, .serv-opening-div{
 		height: auto;
+	}
+	.serv-wrapper section {
+	    background: #ffffffed;
 	}
 	.slideShow-logo {
 	    width: 30%;

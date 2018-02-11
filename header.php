@@ -7,6 +7,7 @@
 	<meta http-equiv="Pragma" content="no-cache"/>
 	<meta http-equiv="Expires" content="0"/>
 	<title>VevroDigital</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" />
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
 	<link rel="stylesheet" href="assets/css/animate.css">
@@ -16,10 +17,12 @@
 	<link rel="stylesheet" href="assets/css/hover-min.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/side-menu.css" />
 	<link rel="stylesheet" href="assets/css/blobs.css"> 
+	<link rel="stylesheet" href="assets/css/hover/tooltip.css"> 
+	<link rel="stylesheet" href="assets/css/anim/particles.css"> 
 	<link rel="stylesheet" href="assets/css/styles.css"> 
 	<link rel="stylesheet" href="assets/css/responsive.css"> 
-	<link rel="shortcut icon" href="assets/images/favicon.ico" />
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.2/pixi.min.js'></script>
 	<script src="assets/js/snap.svg-min.js"></script>
 	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	<script>

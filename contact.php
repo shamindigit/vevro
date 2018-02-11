@@ -47,10 +47,10 @@
 								<div class="col-lg-6 col-md-6 col-sm-12">
 									<!-- <div class="con--adrs--blob"></div> -->
 									<div class="con--adrs">
-										<h5 data-aos="fade-left" data-aos-duration="800"  data-aos-once="true" data-aos-easing="linear" >Vevro Pvt.Ltd</h5>
-										<h6 data-aos="fade-left" data-aos-duration="1000"  data-aos-once="true" data-aos-easing="linear" >25 <sup>th</sup> Floor, East Tower,<h6>
-										<h6 data-aos="fade-left" data-aos-duration="1200"  data-aos-once="true" data-aos-easing="linear" >World Trade Centre,<h6>
-										<h6 data-aos="fade-left" data-aos-duration="1400"  data-aos-once="true" data-aos-easing="linear" >Colombo, Sri Lanka<h6>
+										<h5 class="animated bounceInDown">Vevro Pvt.Ltd</h5>
+										<h6 class="animated bounceInDown">25 <sup>th</sup> Floor, East Tower,<h6>
+										<h6 class="animated bounceInDown">World Trade Centre,<h6>
+										<h6 class="animated bounceInDown">Colombo, Sri Lanka<h6>
 									</div>
 								</div>
 							</div>						

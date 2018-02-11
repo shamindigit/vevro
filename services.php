@@ -5,14 +5,14 @@
 		<div>
 			<div class="row">
 				<div class="serv-opening-div">
-					<canvas id="world"></canvas>
+					<?php include("particles/particles.php"); ?>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="serv-content">
 		<div class="container">
-			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="flip-left">What we do</h1></div></div>
+			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="fade-down" data-aos-once="true" >What we do</h1></div></div>
 			<div class="row">
 				<div class="whatwedo--intro">
 					<!-- <div class="whatwedo--blob"></div> -->
