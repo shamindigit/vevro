@@ -240,15 +240,6 @@ main {
 	top: 0;
 	left: 0;
 }
-/*custom*/
-.slideShow-logo{
-    width: 60%;
-    max-width: 260px;
-    margin: 10% auto;
-    position: relative;
-    z-index: 99;
-        filter: contrast(115%);
-}
 @media screen and (max-width: 40em) {
 	.slide .word {
 		font-size: 2em;

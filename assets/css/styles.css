@@ -159,6 +159,14 @@ section{
     max-width: 40px;
     margin: 10px 0px;
 }
+.slideShow-logo{
+    width: 60%;
+    max-width: 200px;
+    margin: 15% auto;
+    position: relative;
+    z-index: 99;
+        filter: contrast(115%);
+}
 /*#preloader { 
   position: fixed; 
   left: 0; 
@@ -173,6 +181,19 @@ section{
 /*index*/
 .index--sec{
   height: 100vh;
+}
+.zoom {
+  animation: scale 40s linear infinite;
+}
+  
+@keyframes scale {
+  50% {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+  }
 }
 .section-aboutus{
 	position: relative;
@@ -475,9 +496,11 @@ section{
 	color: #54bfb7;
 }
 .main-banner-outer{
-	padding:0px;
- 	width: 100%;
-  	height: 100vmin;
+  padding:0px;
+  width: 100%;
+  height: 100vmin;
+  background: url(../images/3d--room.png);
+  background-size: 100% 100%;
 }
 .aboutus{
 	padding: 5% 0%;
@@ -899,9 +922,6 @@ footer{
     text-transform: capitalize;
     letter-spacing: -0.05em;
     color: #d80000;
-}
-.content{
-	background: #fff;
 }
 .shapes {
     position: absolute;

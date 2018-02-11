@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
-	<section class="index--sec main-banner-outer">
-		<div class="main-banner" id="main-banner" >
+	<section class="index--sec main-banner-outer zoom">
+		<div class="main-banner " id="main-banner" >
 			<div class="content">
 				<div class="slideshow">
 					<img class="animated flipInY slideShow-logo" src="assets/images/vevrologo.png" alt="vevrologo">
