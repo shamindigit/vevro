@@ -4,7 +4,7 @@
 				<div class="row">
 					<div class="col-12 col-sm-12 col-md-2 col-lg-2"  data-aos="fade-down" data-aos-duration="700" data-aos-easing="linear" data-aos-once="true" >
 						<div class="sitemap">
-							<h6><a href="index.php">Vevro</a></h6>
+							<h6><a href="index.php">Home</a></h6>
 							<h6><a href="index.php#whoweare">Who we are</a></h6>
 							<h6><a href="services.php">What we do</a></h6>
 						</div>
@@ -15,7 +15,7 @@
 						<div class="sitemap">
 							<h6><a href="careers.php">Join us</a></h6>
 							<h6><a href="contact.php">contact</a></h6>
-							<h6><a href="#">Blog</a></h6>
+							<h6><a href="http://vevrodigital.com/blog/">Blog</a></h6>
 						</div>
 					</div>
 					<div class="col-12 col-sm-12 col-md-4 col-lg-4"  data-aos="fade-down" data-aos-duration="1000" data-aos-easing="linear"  data-aos-once="true" >
@@ -211,6 +211,7 @@
 		  disable: window.innerWidth < 992
 		})
     </script>
+    <!-- anim--blob -->
   	<script src='assets/js/blob/zkeddv.js'></script>
 	<script src='assets/js/blob/lwgowr.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>

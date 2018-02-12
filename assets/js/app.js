@@ -6,31 +6,31 @@ $(document).ready(function(){
 
 
 //smooth scroll
-$(function(){
+// $(function(){
   
-  var $window = $(window);    //Window object
+//   var $window = $(window);    //Window object
   
-  var scrollTime = .5;     //Scroll time
-  var scrollDistance = 150;   //Distance. Use smaller value for shorter scroll and greater value for longer scroll
+//   var scrollTime = .5;     //Scroll time
+//   var scrollDistance = 150;   //Distance. Use smaller value for shorter scroll and greater value for longer scroll
     
-  $window.on("mousewheel DOMMouseScroll", function(event){
+//   $window.on("mousewheel DOMMouseScroll", function(event){
     
-    event.preventDefault(); 
+//     event.preventDefault(); 
                     
-    var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
-    var scrollTop = $window.scrollTop();
-    var finalScroll = scrollTop - parseInt(delta*scrollDistance);
+//     var delta = event.originalEvent.wheelDelta/120 || -event.originalEvent.detail/3;
+//     var scrollTop = $window.scrollTop();
+//     var finalScroll = scrollTop - parseInt(delta*scrollDistance);
       
-    TweenMax.to($window, scrollTime, {
-      scrollTo : { y: finalScroll, autoKill:true },
-        ease: Power1.easeOut,
-        autoKill: true,
-        overwrite: 5              
-      });
+//     TweenMax.to($window, scrollTime, {
+//       scrollTo : { y: finalScroll, autoKill:true },
+//         ease: Power1.easeOut,
+//         autoKill: true,
+//         overwrite: 5              
+//       });
           
-  });
+//   });
   
-});
+// });
 //readmore
 $(document).ready(function() {
     // Configure/customize these variables.
@@ -82,11 +82,11 @@ function moveBackground() {
   
   translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
 
-  $('.main-banner-outer').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
+  // $('.main-banner-outer').css({
+  //   '-webit-transform': translate,
+  //   '-moz-transform': translate,
+  //   'transform': translate
+  // });
     $('.our--team').css({
     '-webit-transform': translate,
     '-moz-transform': translate,

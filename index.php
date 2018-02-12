@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
-	<section class="index--sec main-banner-outer zoom">
+	<section class="index--sec main-banner-outer zoom panel" id="panel1">
 		<div class="main-banner " id="main-banner" >
 			<div class="content">
 				<div class="slideshow">
@@ -14,7 +14,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="index--sec aboutus-content" id="whoweare">
+	<section class="index--sec aboutus-content panel" id="panel2">
 		<div class="container">
 			<div class="row">
 				<div class="section--headings">
@@ -54,7 +54,7 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="index--sec section-services">
+	<section class="index--sec section-services panel" id="panel3">
 		<div class="container">
 			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="flip-left">What we do</h1></div></div>
 			<div class="main-cat">
@@ -236,7 +236,7 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="index--sec sec-clients">
+	<section class="index--sec sec-clients panel" id="panel4">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6 col-md-5 col-sm-12">
@@ -256,7 +256,7 @@
 			</div>			
 		</div>
 	</section>
-	<section class="index--sec sec--map" id="sec--map">
+	<section class="index--sec sec--map _mPS2id-t" id="sec--map">
 			<div class="row map--div">
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 					<canvas  id="nokey"></canvas>

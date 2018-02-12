@@ -3,16 +3,17 @@
 	.section-services{
 		height: 150vh;
 	}
-} 
+} 	
 @media (min-width:1025px) and (max-width: 1300px) {  
   .blog h2{
   	font-size: 6rem;
   } 
 	.main-cat h2 {
     font-size: 40px;
-    word-wrap: inherit;}
+    word-wrap: inherit;
+	}
 	   h1.hed-sub {
-	    font-size: 5rem;
+	    font-size: 4rem;
 	}
 	.whatwedo--main--events h1{
 		font-size: 3rem;
@@ -26,9 +27,6 @@
 		width: 60%;
 		right: 5%;
 		left: initial;
-	}
-	.sec--map canvas, .location iframe{
-	  height: 500px !important;
 	}
 	.adv_sv_1{
 		right: 4%;
@@ -54,7 +52,27 @@
 	    font-size: 8rem;
 	}
 	.logo--address{
-		padding: 20%;
+		padding: 8%;
+	}
+	.map--div,.location {
+	    height: 60vh;
+	}
+
+}
+@media (max-width: 1300px) { 
+	.ass--software--eng {
+	    margin: 0% 41%;
+	}
+	.founder--circle {
+	    margin: 0 53%;
+	}
+	.team--duty{
+		width: 130px;
+		height: 130px;
+	}
+	.team--duty h4 {
+	    padding: 40% 0;
+	    font-size: 10px;
 	}
 }
 @media (min-width:991px) and (max-width: 1024px) {  
@@ -123,7 +141,138 @@
 	    font-size: 7rem;
 	}
 }
+@media (min-width: 991px) { 
+	
+		.founder:hover{
+		    margin: -20% 20%;
+		    border-radius: 0;
+		}
+		.uix:hover{
+		    margin: -50% 57%;
+		    border-radius: 0;
+		}
+		.se--1:hover{
+		    margin: -36% -16%;
+		    border-radius: 0;
+		}
+		.se--2:hover{
+		    margin: -60% 35%;
+		    border-radius: 0;
+		}
+		.ass-se--1:hover{
+		    margin: -8% 34%;
+		    border-radius: 0;
+		}
+		.ass-se--2:hover {
+		    margin: -5% 10%;
+		    border-radius: 0;
+		}
+		.team--members:hover{
+		  width: 300px;
+		  height: auto;
+		  z-index: 10;
+		  position: absolute;
+		  -webkit-transition: .5s; 
+		  transition: .5s;
+		  z-index: 2;
+		  border-radius: 0;
+		}
+		.team--members img:hover{
+		  border-radius: 0;
+		}
+	}
 @media (max-width: 992px) { 
+	.team--members--container {
+	    position: relative;
+	    min-height: 200px;
+	}
+	.team--duty{
+		position: absolute;
+	}
+	.our--team .row {
+	    min-height: 250px;
+	    overflow: visible;
+	}
+	.our--team{
+	    min-height: 1300px;
+	    padding: 0% 0 10%;
+	    margin: 25% 0 0;
+	}
+	.team--duty{
+		margin-bottom: 20%;
+	}
+	.software--eng {
+	    margin: auto;
+	    left: 30%;
+	    top: 0;
+	}
+	.se--1 {
+	    margin: auto;
+	    right: 33%;
+	    top:68%;
+	}
+	.se--2 {
+		margin: auto;
+	    right: 20%;
+	    top: -30%;
+	}
+	.founder{
+		margin: 0% 31% 0;
+	}
+	.founder--circle{
+	    margin: auto;
+	    top: -17%;
+	    right: 23%;
+	}
+	.uix--eng {
+		margin: auto;
+	    top: 70%;
+	    right:22%;
+	}
+	.uix {
+		margin: auto;
+	    top: 87%;
+	    right:45%;
+	}
+	.ass--software--eng {
+	    margin: auto;
+	    left: 26%;
+	    top: 100%;
+	}
+	.ass-se--1 {
+	    margin: auto;
+	    left: 50%;
+	    top: 90%;
+	}
+	.ass-se--2 {
+	    margin: auto;
+	    left:32%;
+	    top: 174%;
+	}
+	.team--members img:active{
+	  border-radius: 0;
+	}
+	.team--members:active{
+	  width: 300px;
+	  height: auto;
+	  z-index: 10;
+	  -webkit-transition: .5s; /* Safari */
+	  transition: .5s;
+	  z-index: 2;
+	  border-radius: 0;
+	}
+	.team--members{
+		z-index: 99;
+	}
+	.founder:active,
+	.uix:active,
+	.se--1:active,
+	.se--2:active,
+	.ass-se--1:activ,
+	.ass-se--2:active {
+	    border-radius: 0;
+	    z-index: 999;
+	}
 	 .blog h2{
 	 	font-size: 4rem;
 	 	padding: 15rem 0px;
@@ -227,10 +376,10 @@
 		padding: 0;
 	}
 	.color-pie--bg{
-		height: 170px;
+		height: 150px;
 	}
 	h1.hed-sub {
-	    font-size: 4rem;
+	    font-size: 3rem;
 	}
 	.abtBigHeading{
 	    right: 5%;
@@ -253,8 +402,18 @@
 	.meet--veta h1{
 		font-size: 7rem;
 	}
+	.logo--address .logofooter img {
+	    max-width: 80px;
+	}
 	.logo--address .address-footer h5{
-		font-size: 25px;
+		font-size: 15px;
+	}
+	.logo--address .address-footer h6 {
+	    line-height: 16px;
+	    font-size: 10px;
+	}
+	.sec--map canvas {
+	    height: 50vh;
 	}
  	.cat-text-bg-di, .cat-text-bg-ai, .cat-text-bg-wb, .cat-text-bg-ad{
  		display: none;
@@ -315,11 +474,11 @@
 	    font-size: 3rem;
 	}
 	.heading-clients {
-	    font-size: 8rem;
-	    padding: 15% 0 0;
+	    font-size:7rem;
+	    padding: 35% 0 0;
 	}
 	.clent--bg--blob img {
-	    top: -30%;
+	    top: 0%;
 	    width: 110%;
 	}
 	.section-aboutus{
@@ -337,9 +496,53 @@
 	.location{
 		display: none;
 	}
+	.map--div ,.mapandweather img{
+	    height: 40vh;
+	}
+
 }
 
 @media (max-width: 768px) {  
+	.team--duty{
+		display: none;
+	}
+	.our--team{
+		margin: 10% 0 0;
+		transform: none !important;
+	}
+	.team--members--container{
+		max-height: 400px;
+	}
+	.founder, .se--2, .se--1, .uix, .ass-se--1, .ass-se--2{
+		margin: 0;
+		left: 0;
+		top: 0;
+		right: 0;
+	}
+	.team--members img{
+		border-radius: 0;
+		width: 50%;
+		float: left;
+	}
+	.se--2 img, .ass-se--1 img, .founder img{
+		float: right;
+	}
+	.team--members{
+		width: 100%;
+		position: relative;
+	}
+	.tooltip-content{
+		opacity: 1;
+	    -webkit-transform: none; 
+	    transform: none;    
+	    width: 50%;
+	    padding: 18% 0;
+	    height: 255px;
+	    float: left
+	}
+	.tooltip-content p {
+	    padding: 10px 0;
+	}
 	.blog-author{
 		text-align: center;
 	}
@@ -442,11 +645,14 @@
 	.di--ve--sub--area h4 {
 	    font-size: 20px;
 	}
-	.whatwedo--main--events p,.computer--vision p, .whatwedo--main--events ul li{
+	.whatwedo--main--events p,.computer--vision p,.vevro--main--categories ul li{
 		font-size: 15px;
+	}
+	.vevro--main--categories ul{
+		margin:10% 0;
 	}	
 	.whatwedo--main--events p{
-		padding-top:30px;
+		padding-top:10px;
 	}
 	a.morelink{
 		padding: 20px;
@@ -542,9 +748,22 @@
 	.mapandweather img{
 		width: 100%;
 	}
+	.map--div, .mapandweather img{
+		height: auto;
+	}
+	.aboutus-opening-div{
+		height: 40vh;
+	}
+	.main-banner-outer{
+		transform: none !important;
+	}
 } 
 /* Small devices (landscape phones, 544px and up) */
 @media (max-width: 610px) { 
+	.tooltip-content{
+		height: 264px;
+		padding: 18% 2%;
+	}
 	.logo {
 	    max-width: 36px;
 	}
@@ -657,9 +876,47 @@
 	.whatwedo--intro p {
 	    font-size: 1rem;
 	}
+	.con--tpno h2{
+		font-size: 16px;
+	}
+	.abtBigHeading, .carBigHeading{
+		bottom:20%;
+	}
+	.aboutus-opening-div {
+    	height: 20vh;
+    }
+    .team--members--container{
+    	width: 200px;
+    	margin:0 auto;
+    }
+    .color-pie--bg{
+    	left: 0;
+    	height: 50px;
+    	width: 	100%;
+    }
+	h1.hed-sub {
+	    font-size: 20px;
+	}
+	.whoweare--intro h1 {
+	    font-size: 65%;
+	}
+	a.morelink{
+		float: none;
+	}
 }
  
 @media (max-width: 478px) {
+	.tooltip-content{
+	    padding: 10% 5%;
+	    height: auto;
+	    margin-bottom: 20px;
+	    width: 100%;
+	}
+	.team--members img{
+		float: none;
+		width: 100%;
+		max-width: 100%;
+	}
 	.blog-menu-div {
 	    width: 60%;
 	}
@@ -701,9 +958,6 @@
 	}
 	.hed-prim h3 {
 	    font-size: 15px;
-	}
-	h1.hed-sub {
-	    font-size: 25px;
 	}
 	#nav-icon1 span:nth-child(2){
 		left: 0;
@@ -820,6 +1074,15 @@
 	}
 	.whatwedo--intro h4{
 		font-size: 15px;
+	}
+	.logo--address{
+		padding:20%;
+	}
+	small {
+	    font-size: 50%;
+	}
+	.vevro--main--categories ul li{
+		font-size: 13px;
 	}
 }
  

@@ -25,32 +25,59 @@
 				<div class="our--team">
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="team-circles team--duty founder--circle animated infinite tada ">
-								<h4>Founder<br>&amp; CEO</h4>
+							<div class="team--members--container">
+								<div class="team-circles team--duty founder--circle animated infinite tada ">
+									<h4>Founder<br>&amp; CEO</h4>
+								</div>
+								<a class="team-circles tooltip  team--members founder">
+									<img src="assets/images/team/ashi.png" alt="founder">
+									<span class="tooltip-content">
+										<h5>Vidushitha Ashi Dhanatunge</h5>
+										<p>Founder &amp; CEO</p>
+									</span>
+								</a>
 							</div>
-							<a class="team-circles tooltip  team--members founder">
-								<img src="assets/images/team/ashi.png" alt="founder">
-								<span class="tooltip-content">
-									<h5>Vidushitha Ashi Dhanatunge</h5>
-									<p>Founder &amp; CEO</p>
-								</span>
-							</a>
-						</div>						
-						<div class="col-lg-6">
-							<div class="team-circles team--duty uix--eng animated infinite tada ">
-								<h4>UI/UX<br>Engineer</h4>
-							</div>
-							<a class="team-circles tooltip team--members uix">
-								<img src="assets/images/team/shami.png" alt="UIX">
-								<span class="tooltip-content">
-									<h5>Shamindi Wehalle</h5>
-									<p>UI/UX Engineer</p>
-									<div class="details">
-									</div>
-								</span>
-							</a>							
 						</div>
-						<div class="col-lg-6">
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-12 hidden-lg-up">
+							<div class="team--members--container">
+								<div class="team-circles team--duty software--eng animated infinite tada ">
+									<h4>Software<br>Engineers</h4>
+								</div>
+								<a class="team-circles tooltip team--members se se--1">
+									<img src="assets/images/team/harith.png" alt="">
+									<span class="tooltip-content">
+										<h5>Haritha Thilakarathne</h5>
+										<p>Software Engineer</p>
+									</span>
+								</a>							
+								<a class="team-circles tooltip team--members se se--2">
+									<img src="assets/images/team/pasan.png" alt="">
+									<span class="tooltip-content">
+										<h5>Pasan Chamikara</h5>
+										<p>Software Engineer</p>
+									</span>
+								</a>
+							</div>
+						</div>					
+						<div class="col-lg-6 col-md-12 ">
+							<div class="team--members--container">
+								<div class="team-circles team--duty uix--eng animated infinite tada ">
+									<h4>UI/UX<br>Engineer</h4>
+								</div>
+								<a class="team-circles tooltip team--members uix">
+									<img src="assets/images/team/shami.png" alt="UIX">
+									<span class="tooltip-content">
+										<h5>Shamindi Wehalle</h5>
+										<p>UI/UX Engineer</p>
+										<div class="details">
+										</div>
+									</span>
+								</a>
+							</div>							
+						</div>
+						<div class="col-lg-6 col-md-12 hidden-md-down">
 							<div class="team-circles team--duty software--eng animated infinite tada ">
 								<h4>Software<br>Engineers</h4>
 							</div>
@@ -68,26 +95,30 @@
 									<p>Software Engineer</p>
 								</span>
 							</a>
-						</div>	
+						</div>
+					</div>
+					<div class="row">	
 						<div class="col-lg-12">
-							<div class="team-circles team--duty ass--software--eng animated infinite tada ">
-								<h4>Associate Software<br>Engineers</h4>
+							<div class="team--members--container">
+								<div class="team-circles team--duty ass--software--eng animated infinite tada ">
+									<h4>Associate Software<br>Engineers</h4>
+								</div>
+								<a class="team-circles tooltip team--members ass-se ass-se--1">
+									<img src="assets/images/team/mandeera.png" alt="">
+									<span class="tooltip-content">
+										<h5>Mandeera Karawita</h5>
+										<p>Associate Software Engineer</p>
+									</span>
+								</a>							
+								<a class="team-circles tooltip team--members ass-se ass-se--2">
+									<img src="assets/images/team/josh.png" alt="">
+									<span class="tooltip-content">
+										<h5>Josh Eardly</h5>
+										<p>Associate Software Engineer</p>
+									</span>
+								</a>
 							</div>
-							<a class="team-circles tooltip team--members ass-se ass-se--1">
-								<img src="assets/images/team/mandeera.png" alt="">
-								<span class="tooltip-content">
-									<h5>Mandeera Karawita</h5>
-									<p>Associate Software Engineer</p>
-								</span>
-							</a>							
-							<a class="team-circles tooltip team--members ass-se ass-se--2">
-								<img src="assets/images/team/josh.png" alt="">
-								<span class="tooltip-content">
-									<h5>Josh Eardly</h5>
-									<p>Associate Software Engineer</p>
-								</span>
-							</a>
-						</div>					
+						</div>				
 					</div>
 				</div>
 				<?php include("metaball/metaball.php"); ?>

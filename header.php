@@ -3,10 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="vevro, digital, augmented, reality, virtual, mobile, ui, ui/ux, web, srilanka digital, AI, artificial intelligence">
+	<meta name="author" content="Shamindi Wehalle">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
 	<meta http-equiv="Pragma" content="no-cache"/>
 	<meta http-equiv="Expires" content="0"/>
-	<title>VevroDigital</title>
+	<title>Vevro</title>
 	<link rel="shortcut icon" href="assets/images/favicon.ico" />
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
@@ -69,7 +72,11 @@
 	        };
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script> -->
+	<!-- mousewheel -->
+	<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js'></script>
+	<script src="assets/js/scroll/mousewheel.js"></script>	
 </head>
 <body>
 <div id="preloader"></div>
@@ -101,7 +108,7 @@
 					</div>
 					<div class="col-lg-8 col-md-6 col-sm-4 hidden-xs-down">&nbsp;</div>
 					<div class="col-lg-3 col-md-4 col-sm-5 col-9">
-						<div class="blog-menu-div"><a href="#" class="menuBlog hvr-wobble-to-bottom-right">Blog</a></div>
+						<div class="blog-menu-div"><a href="http://vevrodigital.com/blog/" class="menuBlog hvr-wobble-to-bottom-right">Blog</a></div>
 						<div class="ham-icon-div">
 							<button class="menu-button" id="open-button">
 								<div id="nav-icon1">
