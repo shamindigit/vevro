@@ -52,6 +52,15 @@
 	<footer>
 		<small><a href="#">Copyright &copy; 2017 Vevro. All rights reserved.</a></small>
 	</footer>
+	<script>
+		$(window).load(function(){
+			var tallness = $("#footer--address").height();
+			$("#map").height(tallness);  		 		
+
+			var divheight = $("#sec--clients").height();
+			$("#clent--bg--blob--svg").height(divheight);  
+		});
+	</script>
 	<script src="assets/js/classie.js"></script>
 	<script src="assets/js/main3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
@@ -217,5 +226,9 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script>
 	<script src='assets/js/blob/jbvxyp.js'></script>
 	<script src="assets/js/blob/index.js"></script>
+
+	<script src="assets/js/weathercanvas.js"></script>	
+<!-- 	<script src='https://unpkg.com/slick-carousel@1.7.1'></script>
+	<script src="assets/js/scroll/scroll.js"></script> -->
 	</body>
 </html>

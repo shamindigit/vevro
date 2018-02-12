@@ -1,20 +1,21 @@
 <?php include("header.php"); ?>
-	<section class="index--sec main-banner-outer zoom panel" id="panel1">
+<div id="slider">
+	<section class="index--sec main-banner-outer zoom section" id="sec--main">
 		<div class="main-banner " id="main-banner" >
 			<div class="content">
 				<div class="slideshow">
-					<img class="animated flipInY slideShow-logo" src="assets/images/vevrologo.png" alt="vevrologo">
+					<img class=" animated flipInY slideShow-logo" src="assets/images/vevrologo.png" alt="vevrologo">
 					<div class="slide slide--current animated fadeOut">
 						<div class="slide__bg slide__bg--8">
 							
 						</div>
-						<h2 class="word word--8  animated zoomOut">Vevro</h2>
+						<h2 class="word word--8 animated zoomOut">Vevro</h2>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="index--sec aboutus-content panel" id="panel2">
+	<section class="index--sec aboutus-content section" id="sec--aboutus">
 		<div class="container">
 			<div class="row">
 				<div class="section--headings">
@@ -54,7 +55,7 @@
 			</div> -->
 		</div>
 	</section>
-	<section class="index--sec section-services panel" id="panel3">
+	<section class="index--sec section-services section" id="sec--services">
 		<div class="container">
 			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="flip-left">What we do</h1></div></div>
 			<div class="main-cat">
@@ -236,7 +237,7 @@
 			</div>
 		</div>
 	</section> -->
-	<section class="index--sec sec-clients panel" id="panel4">
+	<section class="index--sec sec-clients section" id="sec--clients">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6 col-md-5 col-sm-12">
@@ -251,15 +252,16 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-7 col-sm-12">
-					<div class="clent--bg--blob"><img src="assets/images/clients.svg" alt="clients"></div>
+					<div class="clent--bg--blob"><img src="assets/images/clients.svg" alt="clients" id="clent--bg--blob--svg"></div>
 					<h1 class="heading-clients">Clients</h1></div>
 			</div>			
 		</div>
 	</section>
-	<section class="index--sec sec--map _mPS2id-t" id="sec--map">
-			<div class="row map--div">
+	<section class="index--sec sec--map section" id="sec--map">
+			<div class="row map--div" id="footer--address">
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
-					<canvas  id="nokey"></canvas>
+					<canvas id="c" style="position: absolute;"></canvas>
+					<!-- <canvas  id="nokey"></canvas> -->
 					<div class="logo--address">
 						<div class="logofooter">
 							<a href="contact.php"><img src="assets/images/vevrologo-notxt.png" alt=""></a>
@@ -553,7 +555,6 @@
 
 							  var myLatLng = {lat: 6.932891, lng: 79.843664};
 
-
 							  var marker = new google.maps.Marker({
 							    position: myLatLng,
 							    map: map,
@@ -569,3 +570,4 @@
 			</div>
 			<?php include ("footer.php")?>
 	</section>
+</div>

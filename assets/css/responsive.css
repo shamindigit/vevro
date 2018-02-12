@@ -1,7 +1,19 @@
 
+/*@media (max-height: 768px) { 
+	.logo--address .logofooter img {
+	    max-width: 100px;
+	}
+	.logo--address .address-footer h5{
+		font-size: 20px;
+	}
+	.logo--address .address-footer h6 {
+		line-height: 25px;
+		font-size: 15px;
+	}
+}*/
 @media (max-width: 1600px) { 
 	.section-services{
-		height: 150vh;
+		min-height: 150vh;
 	}
 } 	
 @media (min-width:1025px) and (max-width: 1300px) {  
@@ -54,9 +66,9 @@
 	.logo--address{
 		padding: 8%;
 	}
-	.map--div,.location {
+/*	.map--div,.location {
 	    height: 60vh;
-	}
+	}*/
 
 }
 @media (max-width: 1300px) { 
@@ -73,6 +85,9 @@
 	.team--duty h4 {
 	    padding: 40% 0;
 	    font-size: 10px;
+	}
+	.servBigHeading .color-pie--bg{
+		height: 130px;
 	}
 }
 @media (min-width:991px) and (max-width: 1024px) {  
@@ -139,6 +154,12 @@
 		}
 	.heading-clients {
 	    font-size: 7rem;
+	}
+}
+@media (min-width: 1024px) { 
+	.index--sec{
+		height: auto;
+		min-height: auto;
 	}
 }
 @media (min-width: 991px) { 
@@ -474,12 +495,13 @@
 	    font-size: 3rem;
 	}
 	.heading-clients {
-	    font-size:7rem;
-	    padding: 35% 0 0;
+	    font-size: 5rem;
+	    padding: 40% 0 0;
 	}
 	.clent--bg--blob img {
 	    top: 0%;
 	    width: 110%;
+	        right: -13%;
 	}
 	.section-aboutus{
 		background-color: #b01f22;
@@ -487,18 +509,15 @@
 	.blob {
 	    background: #c0332a;
 	}
-	.section-services, .index--sec{
-		height: auto;
-	}
 	.mobile--map{
 		display: block;
 	}
 	.location{
 		display: none;
 	}
-	.map--div ,.mapandweather img{
+/*	.map--div ,.mapandweather img{
 	    height: 40vh;
-	}
+	}*/
 
 }
 
@@ -551,7 +570,7 @@
 	}
 	.address-footer {
 	    margin-bottom: 10px;
-	    border-bottom: thin solid #dddddd12;
+/*	    border-bottom: thin solid #dddddd12;*/
 	    padding-bottom: 10px;
 	}
 	.color-pie--bg {
@@ -813,7 +832,7 @@
 	.whatwedo--main--events h1 {
 	    font-size: 2rem;
 	}
-	.sec--map canvas, .location iframe {
+	.sec--map canvas{
 	    height: 340px !important;
 	}
 	.logo--address .logofooter img {

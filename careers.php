@@ -121,9 +121,9 @@
 						</div>				
 					</div>
 				</div>
-				<?php include("metaball/metaball.php"); ?>
+				<!-- <?php include("metaball/metaball.php"); ?> -->
 			</div>
-			<div class="whatwedo-small">
+<!-- 			<div class="whatwedo-small">
 				<div class="row">
 					<a href="services.php">
 						<div class="whatwedo--intro">
@@ -132,7 +132,7 @@
 						</div>
 					</a>
 				</div>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="whatwedo-small">
 					<div class="row"><div class="section--headings"><h1 data-aos="flip-left" class="text-orange">Join Us</h1></div></div>

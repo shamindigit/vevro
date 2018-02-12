@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="vevro, digital, augmented, reality, virtual, mobile, ui, ui/ux, web, srilanka digital, AI, artificial intelligence">
 	<meta name="author" content="Shamindi Wehalle">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
 	<meta http-equiv="Pragma" content="no-cache"/>
-	<meta http-equiv="Expires" content="0"/>
+	<meta http-equiv="Expires" content="-1"/>
 	<title>Vevro</title>
 	<link rel="shortcut icon" href="assets/images/favicon.ico" />
  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -21,7 +20,9 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/side-menu.css" />
 	<link rel="stylesheet" href="assets/css/blobs.css"> 
 	<link rel="stylesheet" href="assets/css/hover/tooltip.css"> 
-	<link rel="stylesheet" href="assets/css/anim/particles.css"> 
+<!-- 	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick.css'>
+	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick-theme.css'> -->
+	<!-- <link rel="stylesheet" href="assets/css/preloader.css">  -->
 	<link rel="stylesheet" href="assets/css/styles.css"> 
 	<link rel="stylesheet" href="assets/css/responsive.css"> 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
@@ -54,32 +55,26 @@
 			}
 		});
 	</script>
-	<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/b7ef205d/cloudflare-static/rocket.min.js"></script>
-	<script type="text/rocketscript">
-	        window.onload = function(){
-
-	            var el = document.getElementById('preloader');
-	            setTimeout(function () {
-	                el.style.opacity = '0';
-	                dis_none(el);
-	            },10);
-	            function dis_none(element) {
-	                setTimeout(function () {
-	                    element.style.display = 'none';
-
-	                },500);
-	            }
-	        };
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script> -->
-	<!-- mousewheel -->
 	<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js'></script>
-	<script src="assets/js/scroll/mousewheel.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<!-- 	<script>
+		$(window).load(function() {
+		  $("body").addClass("loaded");
+		  $(".slideShow-logo").addClass("animated");
+		  $(".slide--current").addClass("animated");
+		  $(".word--8").addClass("animated");
+		});
+	</script> -->
+	
 </head>
 <body>
-<div id="preloader"></div>
+<div id="loader-wrapper">
+  <div id="loader"></div>
+  
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+  
+</div>
 	<header>
 		<div class="header">
 			<div class="menu-wrap">
