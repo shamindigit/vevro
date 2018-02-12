@@ -951,7 +951,6 @@ footer{
 .aboutus-content {
     padding: 10% 0;
     overflow: hidden;
-        background: #f9f9f9;
 }
 .aboutus-banner{
 	width: 100%;;
@@ -960,10 +959,8 @@ footer{
 	padding: 0px 0px 5%;
 }
 .aboutus-opening-div {
-    height: 70vh;
     overflow: visible;
     position: relative;
-    background-color: #0b041d;
     background-image: url(../images/team.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -980,7 +977,7 @@ footer{
   100% {transform: scale(0)}
 }
 h1.hed-sub{
-    font-size: 6rem;
+    font-size: 5rem;
     display: block;
     font-weight: bold;
     text-align: right;

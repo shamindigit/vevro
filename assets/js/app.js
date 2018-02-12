@@ -137,7 +137,7 @@ var ball = {
     
 // Line
    link_line_width = 1,
-   dis_limit = 460,
+   dis_limit = 360,
    add_mouse_point = true,
    mouse_in = false,
    mouse_ball = {

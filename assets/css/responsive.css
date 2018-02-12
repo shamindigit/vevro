@@ -542,6 +542,7 @@
 		border-radius: 0;
 		width: 50%;
 		float: left;
+		max-width: 100%;
 	}
 	.se--2 img, .ass-se--1 img, .founder img{
 		float: right;
@@ -555,8 +556,8 @@
 	    -webkit-transform: none; 
 	    transform: none;    
 	    width: 50%;
-	    padding: 18% 0;
-	    height: 255px;
+	    padding: 23% 0;
+	    height: 345px;
 	    float: left
 	}
 	.tooltip-content p {
