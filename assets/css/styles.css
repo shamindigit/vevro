@@ -822,7 +822,7 @@ a.readmorebtn h3 {
     float: right;
     position: relative;
     height: 100%;
-    height: 800px;
+    height: 500px;
     background: url(../images/map.png);
     background-size: 100%;
 }
@@ -951,6 +951,7 @@ footer{
 .aboutus-content {
     padding: 10% 0;
     overflow: hidden;
+    background: #fff;
 }
 .aboutus-banner{
 	width: 100%;;
@@ -964,6 +965,7 @@ footer{
     background-image: url(../images/team.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 60vh;
 }
 .aboutus-wrapper{
 	overflow: hidden;
@@ -977,11 +979,12 @@ footer{
   100% {transform: scale(0)}
 }
 h1.hed-sub{
-    font-size: 5rem;
+    font-size: 3rem;
     display: block;
     font-weight: bold;
     text-align: right;
     font-family: 'open_sansbold';
+    text-transform: capitalize;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -1117,7 +1120,7 @@ h1.hed-sub{
 	animation-duration: 20s;
 }
 .whatwedo-small{
-  margin: 0 auto;
+  margin: 20% auto 0;
 }
 .whatwedo-small a{
 	display: block;
@@ -1166,7 +1169,7 @@ h1.hed-sub{
 .whoweare--blob{
     background: url(../images/aboutus/whoweare--blob.svg) no-repeat;
     position: absolute;
-    top: -30px;
+    top: -50px;
     left: 20%;
     max-width: 700px;
     height: 200px;
@@ -1255,7 +1258,7 @@ h1.hed-sub{
 }
 .color-pie--bg{
     position: absolute;
-    height: 200px;
+    height: 135px;
     width: 80%;
     top: 0;
     left: 18%;
@@ -1270,7 +1273,7 @@ h1.hed-sub{
 }
 .servBigHeading .color-pie--bg{
     background-color: #3872b3;
-    height: 170px;
+    height: 135px;
 }
 @-webkit-keyframes wiggle {
   0% {-webkit-transform: rotate(10deg);}
@@ -1364,13 +1367,14 @@ h1.hed-sub{
 	text-align: center;
   padding: 0;
   background: #0c031e;
+  height: 60vh;
 }
-.contact-banner canvas{
+/*.contact-banner canvas{
   position: absolute !important;
   top:0;
   left: 0;
   height: 900px !important;
-}
+}*/
 .contact-opening-div {
     height: auto;
     width: 100%;
@@ -1433,12 +1437,12 @@ h1.hed-sub{
 }
 .con--adrs h5{
     font-family: 'open_sansbold';
-    color: #fff;
+    color: #565656;
     text-transform: uppercase;
     line-height: 2;
 }
 .con--adrs h6{
-    color: #fff;
+    color: #141414;
     text-transform: uppercase;
     line-height: 2;
 }
@@ -1539,7 +1543,7 @@ h1.hed-sub{
 .con--tpno h2{
     font-size: 20px;
     line-height: 2;
-    color: #fff;
+    color: #565656;
 }
 .con--tpno i{
   margin-right: 10px;
@@ -1570,7 +1574,7 @@ h1.hed-sub{
   padding: 0px 0px 10%;
 }
 .serv-opening-div {
-    height: 70vh;
+    height: 60vh;
     max-height: 100vmin;
     overflow: hidden;
     position: relative;
@@ -1584,11 +1588,11 @@ h1.hed-sub{
   width: 100%;
   margin:0px;
   padding: 0px;
-
+/*
 background: -moz-linear-gradient(top, rgba(172,208,224,1) 0%, rgba(255,255,255,0.83) 17%, rgba(213,206,166,0.01) 99%, rgba(213,206,166,0) 100%);
 background: -webkit-linear-gradient(top, rgba(172,208,224,1) 0%,rgba(255,255,255,0.83) 17%,rgba(213,206,166,0.01) 99%,rgba(213,206,166,0) 100%);
 background: linear-gradient(to bottom, rgba(172,208,224,1) 0%,rgba(255,255,255,0.83) 17%,rgba(213,206,166,0.01) 99%,rgba(213,206,166,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acd0e0', endColorstr='#00d5cea6',GradientType=0 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#acd0e0', endColorstr='#00d5cea6',GradientType=0 );*/
 }
 .serv-open--heading{
     width: 100%;

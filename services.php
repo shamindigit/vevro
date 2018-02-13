@@ -6,26 +6,26 @@
 			<div class="row">
 				<div class="serv-opening-div">
 					<div class="servBigHeading">
-						<h1 class="hed-sub" data-aos="flip-left">What we do</h1>
+						<h1 class="hed-sub" data-aos="flip-left">Advanced innovation<br>delivered through simplicity</h1>
 						<div class="color-pie--bg" data-aos="zoom-in-up"></div>
 					</div>
-					<?php include("particles/particles.php"); ?>
+					<canvas id="canvas_"></canvas>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section class="serv-content">
 		<div class="container">
-			<div class="row hidden-lg-up"><div class="section--headings"><h1 class="text-blue" data-aos="fade-down" data-aos-once="true" >What we do</h1></div></div>
-			<div class="row">
+			<div class="row"><div class="section--headings"><h1 class="text-blue" data-aos="fade-down" data-aos-once="true" >What we do</h1></div></div>
+<!-- 			<div class="row">
 				<div class="whatwedo--intro">
-					<!-- <div class="whatwedo--blob"></div> -->
+					<div class="whatwedo--blob"></div>
 					<p data-aos="fade-down" data-aos-once="true" >Advanced innovation delivered through simplicity</p>
 				</div>
-			</div>
-			<div class="row">
-				<!-- <div class="line--vertical-custom"> -->
-			</div>		
+			</div> -->
+<!-- 			<div class="row">
+				<div class="line--vertical-custom">
+			</div> -->		
 		</div>
 	</section>
 	<section class="whatwedo--main">

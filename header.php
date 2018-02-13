@@ -65,7 +65,6 @@
 		  $(".word--8").addClass("animated");
 		});
 	</script> -->
-	
 </head>
 <body>
 <div id="loader-wrapper">
@@ -80,11 +79,10 @@
 			<div class="menu-wrap">
 				<nav class="menu hvr-shutter-out-horizontal">
 					<div class="icon-list">
-						<a href="index.php"><i class="fa fa-fw fa-star-o"></i><span>Home</span></a>
-						<a href="index.php#whoweare"><i class="fa fa-fw fa-bell-o"></i><span>Who we are</span></a>
-						<a href="services.php"><i class="fa fa-fw fa-envelope-o"></i><span>What we do</span></a>
-						<a href="careers.php"><i class="fa fa-fw fa-comment-o"></i><span>Join us</span></a>
-						<a href="contact.php"><i class="fa fa-fw fa-bar-chart-o"></i><span>Get in touch</span></a>
+						<a href="index.php"><i class="fas fa-home"></i></a>
+						<a href="services.php"><i class="fas fa-desktop"></i></a>
+						<a href="careers.php"><i class="fas fa-handshake"></i></a>
+						<a href="contact.php"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>

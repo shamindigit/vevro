@@ -1,6 +1,6 @@
 <?php include("header.php"); ?>
 <div id="slider">
-	<section class="index--sec main-banner-outer zoom section" id="sec--main">
+	<section class="index--sec main-banner-outer section" id="sec--main">
 		<div class="main-banner " id="main-banner" >
 			<div class="content">
 				<div class="slideshow">
@@ -560,6 +560,11 @@
 							    map: map,
 							    title: 'Vevro'
 							  });
+								var center = map.getCenter();
+
+								google.maps.event.addDomListener(window, 'resize', function() {
+								    map.setCenter(center);
+								});
 					      }
 
 					    </script>

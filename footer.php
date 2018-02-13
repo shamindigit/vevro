@@ -14,7 +14,7 @@
 					<div class="col-12 col-sm-12 col-md-2 col-lg-2"  data-aos="fade-down" data-aos-duration="900" data-aos-easing="linear"  data-aos-once="true" >
 						<div class="sitemap">
 							<h6><a href="careers.php">Join us</a></h6>
-							<h6><a href="contact.php">contact</a></h6>
+							<h6><a href="contact.php">Get in Touch</a></h6>
 							<h6><a href="http://vevrodigital.com/blog/">Blog</a></h6>
 						</div>
 					</div>
@@ -58,7 +58,12 @@
 			$("#map").height(tallness);  		 		
 
 			var divheight = $("#sec--clients").height();
-			$("#clent--bg--blob--svg").height(divheight);  
+			$("#clent--bg--blob--svg").height(divheight);
+			
+			if ($(window).width() < 768) {
+				var equalH = $("#team-circles-img").height();
+				$("#tooltip-content").height(equalH);
+			}
 		});
 	</script>
 	<script src="assets/js/classie.js"></script>

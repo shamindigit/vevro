@@ -19,7 +19,7 @@
 					<div class="whoweare--intro">
 						<div class="whoweare--blob  animated infinite tada"></div>
 						<h1 data-aos="flip-up">Meet Our Team</h1>
-						<p data-aos="flip-down">It’s always been pretty simple for us.</p>
+						<!-- <p data-aos="flip-down">It’s always been pretty simple for us.</p> -->
 					</div>
 				</div>
 				<div class="our--team">
@@ -30,8 +30,8 @@
 									<h4>Founder<br>&amp; CEO</h4>
 								</div>
 								<a class="team-circles tooltip  team--members founder">
-									<img src="assets/images/team/ashi.png" alt="founder">
-									<span class="tooltip-content">
+									<img id="team-circles-img" src="assets/images/team/ashi.png" alt="founder">
+									<span class="tooltip-content" id="tooltip-content">
 										<h5>Vidushitha Ashi Dhanatunge</h5>
 										<p>Founder &amp; CEO</p>
 									</span>
@@ -121,7 +121,7 @@
 						</div>				
 					</div>
 				</div>
-				<!-- <?php include("metaball/metaball.php"); ?> -->
+				<?php include("metaball/metaball.php"); ?>
 			</div>
 <!-- 			<div class="whatwedo-small">
 				<div class="row">
@@ -136,7 +136,7 @@
 			<div class="row">
 				<div class="whatwedo-small">
 					<div class="row"><div class="section--headings"><h1 data-aos="flip-left" class="text-orange">Join Us</h1></div></div>
-					<div class="row"><div class="whatwedo--intro"><p>"We believe everything starts ends with our people"</p></div></div>
+					<div class="row"><div class="whatwedo--intro"><p>"Trust the magic of a new begining"</p></div></div>
 					<div class="row">	
 						<div class="whatwedo--intro">
 							<a href="contact.php">

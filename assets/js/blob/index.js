@@ -4,7 +4,7 @@
 	=======================
 	*/
 	var scene = new THREE.Scene();
-	scene.background = new THREE.Color( 0x0b041d );
+	scene.background = new THREE.Color( 0x031d3c );
 
 	var canvas = document.getElementById('canvas_'),
 		renderer = new THREE.WebGLRenderer({canvas : canvas, alpha: false}),
