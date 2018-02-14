@@ -79,10 +79,10 @@
 			<div class="menu-wrap">
 				<nav class="menu hvr-shutter-out-horizontal">
 					<div class="icon-list">
-						<a href="index.php"><i class="fas fa-home"></i></a>
-						<a href="services.php"><i class="fas fa-desktop"></i></a>
-						<a href="careers.php"><i class="fas fa-handshake"></i></a>
-						<a href="contact.php"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i></a>
+						<a href="index.php" class="home-icon"><i class="fas fa-home"></i><span id="tool">Home</span></a>
+						<a href="services.php" class="services-icon"><i class="fas fa-desktop"></i><span id="tool">What we do</span></a>
+						<a href="careers.php" class="careers-icon"><i class="fas fa-handshake"></i><span id="tool">Join us</span></a>
+						<a href="contact.php" class="contact-icon"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i><span id="tool">Contact us</span></a>
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>
