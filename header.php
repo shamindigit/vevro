@@ -16,13 +16,13 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/base.css" />
 	<link rel="stylesheet" href="assets/css/aos.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/hover-min.css"> 
+	<link rel="stylesheet" href="assets/css/hover/hover-min.css"> 
 	<link rel="stylesheet" type="text/css" href="assets/css/side-menu.css" />
 	<link rel="stylesheet" href="assets/css/blobs.css"> 
 	<link rel="stylesheet" href="assets/css/hover/tooltip.css"> 
-<!-- 	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick.css'>
-	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick-theme.css'> -->
-	<!-- <link rel="stylesheet" href="assets/css/preloader.css">  -->
+ 	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick.css'>
+	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick-theme.css'> 
+	<link rel="stylesheet" href="assets/css/preloader.css"> 
 	<link rel="stylesheet" href="assets/css/styles.css"> 
 	<link rel="stylesheet" href="assets/css/responsive.css"> 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
@@ -57,14 +57,11 @@
 	</script>
 	<script src='https://code.jquery.com/jquery-1.11.2.min.js'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
-<!-- 	<script>
+ 	<script>
 		$(window).load(function() {
 		  $("body").addClass("loaded");
-		  $(".slideShow-logo").addClass("animated");
-		  $(".slide--current").addClass("animated");
-		  $(".word--8").addClass("animated");
 		});
-	</script> -->
+	</script> 
 </head>
 <body>
 <div id="loader-wrapper">
@@ -76,22 +73,6 @@
 </div>
 	<header>
 		<div class="header">
-			<div class="menu-wrap">
-				<nav class="menu hvr-shutter-out-horizontal">
-					<div class="icon-list">
-						<a href="index.php" class="home-icon"><i class="fas fa-home"></i><span id="tool">Home</span></a>
-						<a href="services.php" class="services-icon"><i class="fas fa-desktop"></i><span id="tool">What we do</span></a>
-						<a href="careers.php" class="careers-icon"><i class="fas fa-handshake"></i><span id="tool">Join us</span></a>
-						<a href="contact.php" class="contact-icon"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i><span id="tool">Contact us</span></a>
-					</div>
-				</nav>
-				<button class="close-button" id="close-button">Close Menu</button>
-				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
-					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
-						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
-					</svg>
-				</div>
-			</div>
 			<div class="navbar-area">
 				<div class="row">
 					<div class="col-lg-1 col-md-2 col-sm-3 col-3 ">
@@ -103,7 +84,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-5 col-9">
 						<div class="blog-menu-div"><a href="http://vevrodigital.com/blog/" class="menuBlog hvr-wobble-to-bottom-right">Blog</a></div>
 						<div class="ham-icon-div">
-							<button class="menu-button" id="open-button">
+							<button class="menu-button" data-target="#menu--modal" data-toggle="modal">
 								<div id="nav-icon1">
 								  <span></span>
 								  <span></span>
@@ -114,5 +95,25 @@
 					</div>
 				</div>
 			</div>
+		</div>
+				<!-- Modal -->
+		<div class="modal animated bounceInLeft" id="menu--modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close hvr-pulse-grow" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+				<div class="icon-list">
+					<a href="index.php" class="home-icon animated bounceInLeft"><i class="fas fa-home"></i><span class="animated bounceIn" id="tool">Home</span></a>
+					<a href="services.php" class="services-icon animated bounceInDown"><i class="fas fa-desktop"></i><span class="animated bounceIn" id="tool">What we do</span></a>
+					<a href="careers.php" class="careers-icon animated bounceInUp"><i class="fas fa-handshake"></i><span class="animated bounceIn" id="tool">Join us</span></a>
+					<a href="contact.php" class="contact-icon animated bounceInRight"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i><span class="animated bounceIn" id="tool">Contact us</span></a>
+				</div>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 	</header>

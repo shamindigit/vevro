@@ -66,11 +66,12 @@
 			}
 		});
 	</script>
-	<script src="assets/js/classie.js"></script>
-	<script src="assets/js/main3.js"></script>
+	<!-- <script src="assets/js/classie.js"></script>
+	<script src="assets/js/main3.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 	<script src="assets/js/app.js"></script>
+	<!-- anim-mainbanner -->
 	<script src="assets/js/charming.min.js"></script>
 	<script src="assets/js/anime.min.js"></script>
 	<script src="assets/js/wordFx.js"></script>
@@ -218,6 +219,7 @@
 			});
 		}
 	</script>
+	<!-- anim-mainbanner ends -->
     <script src="assets/js/aos.js"></script>
     <script>
 		AOS.init({
@@ -233,7 +235,5 @@
 	<script src="assets/js/blob/index.js"></script>
 
 	<script src="assets/js/weathercanvas.js"></script>	
-<!-- 	<script src='https://unpkg.com/slick-carousel@1.7.1'></script>
-	<script src="assets/js/scroll/scroll.js"></script> -->
 	</body>
 </html>

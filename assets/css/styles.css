@@ -52,8 +52,6 @@ html,body{
 	padding:0px;
 	font-family: 'open_sansregular';
 	color:#141414;
-}
-body{
   overflow-x: hidden !important;
 }
 ::-webkit-scrollbar-track
@@ -122,7 +120,7 @@ section{
 	color:#3773b2 !important ;
 }
 .text-red{
-	color:#ea3e33 !important ;
+	color:#b02224 !important ;
 }
 .text-green{
 	color:#64bb50 !important;
@@ -502,23 +500,27 @@ section{
   color:#fff;
 }
 
-a.readmore{
-  position: relative;
-  display: flex;
-  height:80px;
-  width: 80px;
-  margin: 0px auto;
-  padding: 5px 5px;
-  font-size: 13px;
-  color: #ffffff;
-  border: 2px rgba(255, 255, 255, 0.25) solid;
-  border-radius:100%;
-  text-transform: uppercase;
-  outline: 0;
-  overflow:hidden;
-  background: none;
-  z-index: 1;
-  cursor: pointer;
+a.readmore {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 2% auto;
+    padding: 20px;
+    font-size: 12px;
+    color: #bfbdbd;
+    border: 2px rgba(255, 255, 255, 0.25) solid;
+    border-radius: 100%;   
+    box-shadow: 0px 2px 3px 1px #00000029;
+    text-transform: uppercase;
+    outline: 0;
+    text-align: center;
+    overflow: hidden;
+    background: none;
+    border: 2px solid #ddd;
+    z-index: 1;
+    cursor: pointer;
+    float: none;
   transition:         0.08s ease-in;
   -o-transition:      0.08s ease-in;
   -ms-transition:     0.08s ease-in;
@@ -526,7 +528,7 @@ a.readmore{
   -webkit-transition: 0.08s ease-in;
 }
 .hvr-bounce-to-top:before{
-  background: #ffffff94;
+  background: #b22324;
 }
 
 .rdmosvg:before{
@@ -951,7 +953,7 @@ footer{
 .aboutus-content {
     padding: 10% 0;
     overflow: hidden;
-    background: #fff;
+    background: #F2F2F2;
 }
 .aboutus-banner{
 	width: 100%;;
@@ -1834,7 +1836,8 @@ a.morelink {
     font-size: 12px;
     color: #bfbdbd;
     border: 2px rgba(255, 255, 255, 0.25) solid;
-    border-radius: 100%;
+    border-radius: 100%;   
+    box-shadow: 0px 2px 3px 1px #00000029;
     text-transform: uppercase;
     outline: 0;
     text-align: center;
@@ -1844,6 +1847,9 @@ a.morelink {
     z-index: 1;
     cursor: pointer;
     float: left;
+}
+.writeup a.morelink{
+  float: none;
 }
 .vevro--main--categories{
   width: 100%;

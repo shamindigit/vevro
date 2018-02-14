@@ -522,6 +522,12 @@
 	    padding: 5%;
 	    font-size: 20px;
 	}
+	#tool{
+		display: none !important;
+	}
+	.index--sec{
+		min-height: 100%;
+	}
 }
 
 @media (max-width: 768px) {  
@@ -586,9 +592,6 @@
 	h1.hed-sub {
 	    font-size: 3rem;
 	}
-	.hed-prim--hr {
-	    width: 95%;
-	}
 	.hed-prim h3 {
 	    font-size: 25px;
 	    line-height: 1;
@@ -640,9 +643,6 @@
 	.menu {
 	    padding: 40% 0%;
 	}
-/*	.morph-shape {
-	    fill: rgba(255, 255, 255, 0.95);
-	}*/
 	.menu.hvr-shutter-out-horizontal{
 		background:rgba(255, 255, 255, 0.95); 
 	}
@@ -782,6 +782,9 @@
 	}
 	.main-banner-outer{
 		transform: none !important;
+	}
+	.abtBigHeading, .servBigHeading{
+		right: 10%;
 	}
 
 } 
@@ -933,6 +936,24 @@
 	.menu-wrap a {
 	    padding: 5%;
 	    font-size: 15px;
+	}
+	.icon-list{
+		padding-top: 15%;
+	}
+	.icon-list a {
+	    display: table;
+	    padding: 5%;
+	    height: 60px;
+	    width: 60px;
+	    margin:5% auto;
+	}
+	.icon-list a i {
+	    font-size: 20px;
+	    line-height: 0;
+	    vertical-align: middle;
+	}
+	button.close{
+		right: 10px;
 	}
 }
  

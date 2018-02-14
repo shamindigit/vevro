@@ -1,4 +1,24 @@
 <?php include("header.php"); ?>
+		<!-- Modal -->
+		<div class="modal fade" id="menu--modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+				<div class="icon-list">
+					<a href="index.php" class="home-icon"><i class="fas fa-home"></i><span id="tool">Home</span></a>
+					<a href="services.php" class="services-icon"><i class="fas fa-desktop"></i><span id="tool">What we do</span></a>
+					<a href="careers.php" class="careers-icon"><i class="fas fa-handshake"></i><span id="tool">Join us</span></a>
+					<a href="contact.php" class="contact-icon"><i class="fas fa-bullhorn" style="transform: rotate(-25deg);"></i><span id="tool">Contact us</span></a>
+				</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 <div id="slider">
 	<section class="index--sec main-banner-outer section" id="sec--main">
 		<div class="main-banner " id="main-banner" >
@@ -40,6 +60,11 @@
 							<!-- <div class="writeup-para-3--blob animated infinite tada"></div> -->
 							<p>"Making Digital Simple" is what we believe in and the reason we all come to work every day. We therefore, employ talented, enthusiastic, and vibrant people – skilled and specialised in either strategy, creative or code – to make your digital dreams a reality.</p>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<a href="services.php" class="readmore hvr-bounce-to-top">Read more</a>
 					</div>
 				</div>
 			</div>
