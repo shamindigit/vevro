@@ -5,9 +5,9 @@
 		<div>
 			<div class="row">
 				<div class="serv-opening-div">
-					<div class="servBigHeading">
+					<div class="titleBigHeading">
 						<h1 class="hed-sub" data-aos="flip-left">Advanced innovation<br>delivered through simplicity</h1>
-						<div class="color-pie--bg" data-aos="zoom-in-up"></div>
+						<div class="color-pie--bg bg-lightblue" data-aos="zoom-in-up"></div>
 					</div>
 					<canvas id="canvas_"></canvas>
 				</div>

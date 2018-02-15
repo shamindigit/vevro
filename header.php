@@ -17,14 +17,14 @@
 	<link rel="stylesheet" href="assets/css/aos.css">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/hover/hover-min.css"> 
-	<link rel="stylesheet" type="text/css" href="assets/css/side-menu.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/side-menu.css?nw&bj" />
 	<link rel="stylesheet" href="assets/css/blobs.css"> 
 	<link rel="stylesheet" href="assets/css/hover/tooltip.css"> 
  	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick.css'>
 	<link rel='stylesheet prefetch' href='https://unpkg.com/slick-carousel@1.7.1/slick/slick-theme.css'> 
 	<link rel="stylesheet" href="assets/css/preloader.css"> 
-	<link rel="stylesheet" href="assets/css/styles.css"> 
-	<link rel="stylesheet" href="assets/css/responsive.css"> 
+	<link rel="stylesheet" href="assets/css/styles.css?nw&bj"> 
+	<link rel="stylesheet" href="assets/css/responsive.css?nw&bj"> 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.4.2/pixi.min.js'></script>
 	<script src="assets/js/snap.svg-min.js"></script>

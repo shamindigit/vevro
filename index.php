@@ -64,7 +64,7 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<a href="services.php" class="readmore hvr-bounce-to-top">Read more</a>
+						<a href="careers.php" class="readmore hvr-bounce-to-top">Learn more</a>
 					</div>
 				</div>
 			</div>
@@ -571,7 +571,20 @@
 					          mapTypeControlOptions: {
 					            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
 					                    'styled_map']
-					          }
+					          },
+							fullscreenControl: true,
+							fullscreenControlOptions: {
+							  position: google.maps.ControlPosition.RIGHT_TOP
+							},
+						    scaleControl: true,
+						    streetViewControl: true,
+						    streetViewControlOptions: {
+						        position: google.maps.ControlPosition.LEFT_CENTER
+						    },
+						    zoomControl: true,
+						    zoomControlOptions: {
+						        position: google.maps.ControlPosition.LEFT_CENTER
+						    }
 					        });
 
 					        //Associate the styled map with the MapTypeId and set it to display.
