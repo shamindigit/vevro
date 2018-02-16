@@ -33,13 +33,6 @@
 	.meet--veta h1{
 		font-size: 6rem;
 	}
-	.meet--veta .color-pie--bg {
-	    top: 40%;
-		height: 105px;
-		width: 60%;
-		right: 5%;
-		left: initial;
-	}
 	.adv_sv_1{
 		right: 4%;
 	}
@@ -61,7 +54,7 @@
 		margin-left: 30%;
 	}
 	.heading-clients {
-	    font-size: 8rem;
+	    font-size: 6rem;
 	}
 	.logo--address{
 		padding: 8%;
@@ -152,9 +145,6 @@
 		float: right;
 		margin-right: -30%;
 		}
-	.heading-clients {
-	    font-size: 7rem;
-	}
 }
 @media (min-width: 1024px) { 
 	.index--sec{
@@ -396,20 +386,8 @@
 	.writeup .writeup-para-3{
 		padding: 0;
 	}
-	.color-pie--bg, .servBigHeading .color-pie--bg{
-		height: 150px;
-	}
 	h1.hed-sub {
 	    font-size: 3rem;
-	}
-	.abtBigHeading{
-	    right: 5%;
-	    bottom: 20%;
-	}
-	.carBigHeading {
-	    right: 5%;
-	    bottom: 25%;
-	    max-width: 460px;
 	}
 /*	.careers-opening-div, .serv-opening-div{
 		height: auto;
@@ -494,15 +472,6 @@
 	.main-cat h2 {
 	    font-size: 3rem;
 	}
-	.heading-clients {
-	    font-size: 5rem;
-	    padding: 40% 0 0;
-	}
-	.clent--bg--blob img {
-	    top: 0%;
-	    width: 110%;
-	        right: -13%;
-	}
 	.section-aboutus{
 		background-color: #b01f22;
 	}
@@ -515,9 +484,6 @@
 	.location{
 		display: none;
 	}
-/*	.map--div ,.mapandweather img{
-	    height: 40vh;
-	}*/
 	.menu-wrap a {
 	    padding: 5%;
 	    font-size: 20px;
@@ -527,6 +493,18 @@
 	}
 	.index--sec{
 		min-height: 100%;
+	}
+	.titleBigHeading{
+		max-width: 90%;
+	}
+	.icon-list a{
+		padding: 5%;
+	}
+	.clent--bg--blob img{
+		width: 260%;
+	}
+	.heading-clients{
+		font-size: 7rem;
 	}
 }
 
@@ -583,11 +561,7 @@
 	}
 	.address-footer {
 	    margin-bottom: 10px;
-/*	    border-bottom: thin solid #dddddd12;*/
 	    padding-bottom: 10px;
-	}
-	.color-pie--bg , .servBigHeading .color-pie--bg{
-	    height: 120px;
 	}
 	h1.hed-sub {
 	    font-size: 3rem;
@@ -610,15 +584,8 @@
 	.hed-prim h3 {
 	    font-size: 18px;
 	}
-	.abtBigHeading, .carBigHeading {
-	    right: 7%;
-	    bottom: 8%;
-	}
 	h1.hed-sub {
 	    font-size: 2rem;
-	}
-	.color-pie--bg , .servBigHeading .color-pie--bg{
-	    height: 70px;
 	}
 	.writeup p, .whoweare--intro p{
 	    font-size: 20px;
@@ -718,17 +685,6 @@
 	    width: 120%;
 	    margin-left: -7%;
 	}
-	.clent--bg--blob img {
-	    top: -150%;
-	}
-	.heading-clients {
-	    font-size: 7rem;
-	    padding:0;
-	}
-	.carBigHeading .color-pie--bg {
-	    width: 100%;
-	    height: 120px;
-	}
 	.carBigHeading {
 	    right: 5%;
 	    bottom: 20%;
@@ -783,10 +739,33 @@
 	.main-banner-outer{
 		transform: none !important;
 	}
-	.abtBigHeading, .servBigHeading{
-		right: 10%;
+	.titleBigHeading {
+	    right: 0;
+	    bottom: 0;
+	    width: 100%;
+	    padding: 20px;
+		max-width: 100%;
 	}
-
+	.color-pie--bg {
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	    z-index: 5;
+	    animation: none;
+	    opacity: .5;
+	}
+	.clients{
+		padding: 10% 0;
+	}
+	.clent--bg--blob img{
+		display: none;
+	}
+	.heading-clients{
+		font-size: 4rem;
+	    text-align: center;
+	    color: #a7a7a7;
+	    padding: 0% 0 5%;
+	}
 } 
 /* Small devices (landscape phones, 544px and up) */
 @media (max-width: 610px) { 
@@ -806,21 +785,12 @@
 	.section-aboutus {
 	    border-radius: 0%;
 	}
-	.heading-clients{
-		font-size:3rem;
-	}
 	.con--adrs {
 	    padding: 8% 5% 0;
 	    text-align: center;
 	}
 	.con--adrs--blob{
 		display: none;
-	}
-	.conBigHeading {
-	    position: relative;
-	    top: 0;
-	    left: auto;
-	    padding: 10% 0 0;
 	}
 	.address-footer h5,.footer h6 {
 	    line-height: 2;
@@ -896,10 +866,6 @@
 	.clients div img {
 	    max-width: 60px;
 	}
-	.carBigHeading .color-pie--bg {
-	    width: 80%;
-	    height: 50px;
-	}
 	.carBigHeading h1.hed-sub {
 	    font-size: 2rem;
 	}
@@ -909,20 +875,12 @@
 	.con--tpno h2{
 		font-size: 16px;
 	}
-	.abtBigHeading, .carBigHeading{
-		bottom:20%;
-	}
 	.aboutus-opening-div , .serv-opening-div{
     	height: 20vh;
     }
     .team--members--container{
     	width: 200px;
     	margin:0 auto;
-    }
-    .color-pie--bg{
-    	left: 0;
-    	height: 50px;
-    	width: 	100%;
     }
 	h1.hed-sub {
 	    font-size: 20px;
@@ -954,6 +912,9 @@
 	}
 	button.close{
 		right: 10px;
+	}
+	.heading-clients {
+	    font-size: 2rem;
 	}
 }
  
@@ -1020,12 +981,6 @@
 	.menu-button{
 		padding: 10px;
 	}
-	.meet--veta .color-pie--bg {
-	    top: 44%;
-	    height: 90px;
-	    width: 70%;
-	    right: 5%;
-	}
 	.whatwedo--main--events h1 {
 	    font-size: 5rem;
 	}
@@ -1090,12 +1045,6 @@
 	}
 	.aboutus p{
 		font-size: 14px;
-	}
-	.heading-clients{
-		font-size: 2rem;
-	}
-	.color-pie--bg {
-	    height: 50px;
 	}
 	.hed-prim h3 {
 	    font-size: 13px;

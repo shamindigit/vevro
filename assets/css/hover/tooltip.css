@@ -29,16 +29,47 @@
 	transition-timing-function: ease, cubic-bezier(.18,.46,.05,.85);
 }
 .founder .tooltip-content{
-	background-color: #ac1f22;
+	background: #b02224;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #b62a26), color-stop(100%, #d84b35));
+    background: -webkit-linear-gradient(45deg, #d84b35 0%, #b62a26 100%);
+    background: -o-linear-gradient(45deg, #d84b35 0%, #b62a26 100%);
+    background: -ms-linear-gradient(45deg, #d84b35 0%, #b62a26 100%);
+    background: linear-gradient(45deg, #d84b35 0%, #b62a26 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b62a26', endColorstr='#d84b35',GradientType=1 );
+    filter: contrast(115%);
 }
 .uix .tooltip-content{
-	background-color: #64bb50;
+    background: #61AD47;
+    background: -moz-linear-gradient(45deg, #92c647 0%, #61AD47 99%, #61AD47 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #92c647), color-stop(99%, #61AD47), color-stop(100%, #61AD47));
+    background: -webkit-linear-gradient(45deg, #92c647 0%, #61AD47 99%, #61AD47 100%);
+    background: -o-linear-gradient(45deg, #92c647 0%, #61AD47 99%, #61AD47 100%);
+    background: -ms-linear-gradient(45deg, #92c647 0%, #61AD47 99%, #61AD47 100%);
+    background: linear-gradient(45deg, #92c647 0%, #61AD47 99%, #61AD47 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61AD47', endColorstr='#92c647',GradientType=1 );
+    filter: contrast(115%);
 }
 .se .tooltip-content{
-	background-color: #3675b4;
+    background: #3a71b2;
+    background: -moz-linear-gradient(45deg, #53b8ba 0%, #3a71b2 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #53b8ba), color-stop(100%, #3a71b2));
+    background: -webkit-linear-gradient(45deg, #53b8ba 0%, #3a71b2 100%);
+    background: -o-linear-gradient(45deg, #53b8ba 0%, #3a71b2 100%);
+    background: -ms-linear-gradient(45deg, #53b8ba 0%, #3a71b2 100%);
+    background: linear-gradient(45deg, #53b8ba 0%, #3a71b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a71b2', endColorstr='#53b8ba',GradientType=1 );
+    filter: contrast(115%);
 }
 .ass-se .tooltip-content{
-	background-color: #f18b39;
+    background: #e17f35;
+    background: -moz-linear-gradient(45deg, #f6c159 0%, #e17f35 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f6c159), color-stop(100%, #e17f35));
+    background: -webkit-linear-gradient(45deg, #f6c159 0%, #e17f35 100%);
+    background: -o-linear-gradient(45deg, #f6c159 0%, #e17f35 100%);
+    background: -ms-linear-gradient(45deg, #f6c159 0%, #e17f35 100%);
+    background: linear-gradient(45deg, #f6c159 0%, #e17f35 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e17f35', endColorstr='#f6c159',GradientType=1 );
+    filter: contrast(115%);
 }
 .tooltip-content h5, .tooltip-content p{
 	color: #fff;

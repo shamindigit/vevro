@@ -5,14 +5,14 @@
 			<div class="aboutus-opening-div">
 				<canvas  id="nokey"></canvas>
 				</div>
-				<div class="abtBigHeading">
+				<div class="titleBigHeading">
 					<h1 class="hed-sub" data-aos="flip-left">Great people<br>make a great team</h1>
-					<div class="color-pie--bg" data-aos="zoom-in-up"></div>
+					<div class="color-pie--bg bg-red" data-aos="zoom-in-up"></div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="aboutus-content">
+	<section class="aboutus-content careers-wrapper">
 		<div class="container">
 			<div class="ourteam">
 				<div class="row">
@@ -27,7 +27,7 @@
 						<div class="col-lg-12">
 							<div class="team--members--container">
 								<div class="team-circles team--duty founder--circle animated infinite tada ">
-									<h4>Founder<br>&amp; CEO</h4>
+									<h4>Visionary</h4>
 								</div>
 								<a class="team-circles tooltip  team--members founder">
 									<img id="team-circles-img" src="assets/images/team/ashi.png" alt="founder">
@@ -43,13 +43,13 @@
 						<div class="col-lg-6 col-md-12 hidden-lg-up">
 							<div class="team--members--container">
 								<div class="team-circles team--duty software--eng animated infinite tada ">
-									<h4>Software<br>Engineers</h4>
+									<h4>Innovative</h4>
 								</div>
 								<a class="team-circles tooltip team--members se se--1">
 									<img src="assets/images/team/harith.png" alt="">
 									<span class="tooltip-content">
 										<h5>Haritha Thilakarathne</h5>
-										<p>Software Engineer</p>
+										<p>Software Engineer / AI Lead</p>
 									</span>
 								</a>							
 								<a class="team-circles tooltip team--members se se--2">
@@ -64,7 +64,7 @@
 						<div class="col-lg-6 col-md-12 ">
 							<div class="team--members--container">
 								<div class="team-circles team--duty uix--eng animated infinite tada ">
-									<h4>UI/UX<br>Engineer</h4>
+									<h4>Creative</h4>
 								</div>
 								<a class="team-circles tooltip team--members uix">
 									<img src="assets/images/team/shami.png" alt="UIX">
@@ -79,13 +79,13 @@
 						</div>
 						<div class="col-lg-6 col-md-12 hidden-md-down">
 							<div class="team-circles team--duty software--eng animated infinite tada ">
-								<h4>Software<br>Engineers</h4>
+								<h4>Innovative</h4>
 							</div>
 							<a class="team-circles tooltip team--members se se--1">
 								<img src="assets/images/team/harith.png" alt="">
 								<span class="tooltip-content">
 									<h5>Haritha Thilakarathne</h5>
-									<p>Software Engineer</p>
+									<p>Software Engineer / AI Lead</p>
 								</span>
 							</a>							
 							<a class="team-circles tooltip team--members se se--2">
@@ -101,7 +101,7 @@
 						<div class="col-lg-12">
 							<div class="team--members--container">
 								<div class="team-circles team--duty ass--software--eng animated infinite tada ">
-									<h4>Associate Software<br>Engineers</h4>
+									<h4>Passionate</h4>
 								</div>
 								<a class="team-circles tooltip team--members ass-se ass-se--1">
 									<img src="assets/images/team/mandeera.png" alt="">
