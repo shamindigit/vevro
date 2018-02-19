@@ -16,7 +16,7 @@
 	</section>
 	<section class="serv-content">
 		<div class="container">
-			<div class="row"><div class="section--headings"><h1 class="text-blue animated bounceIn">What we do</h1></div></div>
+			<div class="row"><div class="section--headings"><h1 class="text-blue animated zoomIn">What we do</h1></div></div>
 <!-- 			<div class="row">
 				<div class="whatwedo--intro">
 					<div class="whatwedo--blob"></div>
